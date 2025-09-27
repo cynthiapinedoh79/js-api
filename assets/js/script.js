@@ -1,6 +1,6 @@
 const API_KEY = "yFJynNUfyQL9Bj5r98e1sJfhp-w";
 const API_URL = "https://ci-jshint.herokuapp.com/api";
-const resultModal = new bootstrap.Modal(document.getElementById("resultModal"));
+const resultsModal = new bootstrap.Modal(document.getElementById("resultsModal"));
 
 document.getElementById("status").addEventListener("click", e => getStatus(e));
 
