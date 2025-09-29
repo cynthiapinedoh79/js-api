@@ -83,7 +83,25 @@
     </div>
 
     <!-- Modal 1 -->
-    <div class="modal" id="resultsModal" tabindex="-1">
+    <!-- When the element should be completely inert (uninteractive) -->
+    <div class="modal" id="resultsModal" tabindex="-1" style="display: block;" inert>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resultsModalTitle"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="results-content">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- When the element is interactive -->
+    <div class="modal" id="resultsModal" tabindex="-1" style="display: block;">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">

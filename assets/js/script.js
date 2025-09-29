@@ -74,3 +74,4 @@ function displayStatus(data) {
     resultsModal.show();
 
 }
+
